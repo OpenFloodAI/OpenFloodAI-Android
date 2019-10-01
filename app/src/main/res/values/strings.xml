@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">OpenFloodAI</string>
+    <string name="changeTheme">Change Theme</string>
 </resources>
