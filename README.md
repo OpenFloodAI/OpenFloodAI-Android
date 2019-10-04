@@ -1,6 +1,10 @@
 # OpenFloodAI-Android
 
-<a href="https://github.com/badges/shields/graphs/issues" alt="Issues"><img src="https://img.shields.io/github/issues/OpenFloodAI/OpenFloodAI-Android" /></a> <a href="https://github.com/badges/shields/graphs/forks" alt="Forks"><img src="https://img.shields.io/github/forks/OpenFloodAI/OpenFloodAI-Android" /></a> <a href="https://github.com/badges/shields/graphs/stars" alt="Stars"><img src="https://img.shields.io/github/stars/OpenFloodAI/OpenFloodAI-Android" /></a>
+[![issues](https://img.shields.io/github/issues/OpenFloodAI/OpenFloodAI-Android)](https://github.com/OpenFloodAI/OpenFloodAI-Android/issues)
+[![star](https://img.shields.io/github/stars/OpenFloodAI/OpenFloodAI-Android)](https://github.com/OpenFloodAI/OpenFloodAI-Android)
+[![fork](https://img.shields.io/github/forks/OpenFloodAI/OpenFloodAI-Android)](https://github.com/OpenFloodAI/OpenFloodAI-Android/fork)
+[![watch](https://img.shields.io/github/watchers/OpenFloodAI/OpenFloodAI-Android)](https://github.com/OpenFloodAI/OpenFloodAI-Android/subscription)
+[![follow](https://img.shields.io/github/followers/OpenFloodAI)](https://github.com/OpenFloodAI)
 
 ## Contributing to OpenFloodAI
 
