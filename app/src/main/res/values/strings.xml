@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">OpenFloodAI</string>
     <string name="changeTheme">Change Theme</string>
+    <string name="description">OpenFloodAI is an open-source community dedicated &amp; focused on research &amp; developing solutions for Flood related issues.</string>
 </resources>

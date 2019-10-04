@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="headerTextColor" format="color|reference"/>
+    <attr name="subheaderTextColor" format="color|reference"/>
+    <attr name="iconColor" format="color|reference"/>
+    <attr name="stroke" format="color|reference"/>
+
+</resources>

@@ -3,11 +3,14 @@ package openfloodai.github.io.openfloodai;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -69,5 +72,30 @@ public class MainActivity extends AppCompatActivity {
         super.setTheme(R.style.AppThemeDark);
         else
             super.setTheme(R.style.AppTheme);
+    }
+
+    public void openLinkedIn(View view) {
+      openUrl(Constants.LINKEDIN);
+    }
+
+    public void openFacebook(View view) {
+        openUrl(Constants.FACEBOOK);
+
+    }
+
+    public void openTwitter(View view) {
+        openUrl(Constants.TWITTER);
+
+    }
+
+    public void openGithub(View view) {
+        openUrl(Constants.GITHUB);
+
+    }
+
+    private void openUrl(String url)
+    {
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+        startActivity(browserIntent);
     }
 }
