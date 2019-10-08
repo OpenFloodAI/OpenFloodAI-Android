@@ -1,0 +1,57 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:dist="http://schemas.android.com/apk/distribution"
+4    package="openfloodai.github.io.openfloodai"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="21"
+9-->/home/deepak/ws/OpenFloodAI-Android/app/src/main/AndroidManifest.xml
+10        android:targetSdkVersion="28" />
+10-->/home/deepak/ws/OpenFloodAI-Android/app/src/main/AndroidManifest.xml
+11
+12    <dist:module dist:instant="true" />
+12-->/home/deepak/ws/OpenFloodAI-Android/app/src/main/AndroidManifest.xml:6:5-40
+12-->/home/deepak/ws/OpenFloodAI-Android/app/src/main/AndroidManifest.xml:6:18-37
+13
+14    <application
+14-->/home/deepak/ws/OpenFloodAI-Android/app/src/main/AndroidManifest.xml:8:5-23:19
+15        android:allowBackup="true"
+15-->/home/deepak/ws/OpenFloodAI-Android/app/src/main/AndroidManifest.xml:9:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.1.0] /home/deepak/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:fullBackupContent="true"
+18-->/home/deepak/ws/OpenFloodAI-Android/app/src/main/AndroidManifest.xml:15:9-41
+19        android:icon="@mipmap/ic_launcher"
+19-->/home/deepak/ws/OpenFloodAI-Android/app/src/main/AndroidManifest.xml:10:9-43
+20        android:label="@string/app_name"
+20-->/home/deepak/ws/OpenFloodAI-Android/app/src/main/AndroidManifest.xml:11:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->/home/deepak/ws/OpenFloodAI-Android/app/src/main/AndroidManifest.xml:12:9-54
+22        android:supportsRtl="true"
+22-->/home/deepak/ws/OpenFloodAI-Android/app/src/main/AndroidManifest.xml:13:9-35
+23        android:testOnly="true"
+24        android:theme="@style/AppTheme" >
+24-->/home/deepak/ws/OpenFloodAI-Android/app/src/main/AndroidManifest.xml:14:9-40
+25        <activity android:name="openfloodai.github.io.openfloodai.MainActivity" >
+25-->/home/deepak/ws/OpenFloodAI-Android/app/src/main/AndroidManifest.xml:16:9-22:20
+25-->/home/deepak/ws/OpenFloodAI-Android/app/src/main/AndroidManifest.xml:16:19-47
+26            <intent-filter>
+26-->/home/deepak/ws/OpenFloodAI-Android/app/src/main/AndroidManifest.xml:17:13-21:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->/home/deepak/ws/OpenFloodAI-Android/app/src/main/AndroidManifest.xml:18:17-69
+27-->/home/deepak/ws/OpenFloodAI-Android/app/src/main/AndroidManifest.xml:18:25-66
+28                <action android:name="android.intent.action.VIEW" />
+28-->/home/deepak/ws/OpenFloodAI-Android/app/src/main/AndroidManifest.xml:19:17-68
+28-->/home/deepak/ws/OpenFloodAI-Android/app/src/main/AndroidManifest.xml:19:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->/home/deepak/ws/OpenFloodAI-Android/app/src/main/AndroidManifest.xml:20:17-77
+30-->/home/deepak/ws/OpenFloodAI-Android/app/src/main/AndroidManifest.xml:20:27-74
+31            </intent-filter>
+32        </activity>
+33    </application>
+34
+35</manifest>
