@@ -5,6 +5,17 @@
 [![fork](https://img.shields.io/github/forks/OpenFloodAI/OpenFloodAI-Android)](https://github.com/OpenFloodAI/OpenFloodAI-Android/fork)
 [![watch](https://img.shields.io/github/watchers/OpenFloodAI/OpenFloodAI-Android)](https://github.com/OpenFloodAI/OpenFloodAI-Android/subscription)
 
+#### Demo
+![Light and Dark mode](darkMode.gif)
+
+![Twitter](twitter.gif)
+![Facebook](facebook.gif)
+
+![Github](github.gif)
+![LinkedIn](linkedin.gif)
+
+
+
 ## Contributing to OpenFloodAI
 
 ```bash
