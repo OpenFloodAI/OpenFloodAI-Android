@@ -1,16 +1,15 @@
 package openfloodai.github.io.openfloodai;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
-
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.view.Menu;
-import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -34,11 +33,9 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId())
-        {
-            case R.id.changeTheme:
-            {
-               PreferenceManager
+        switch (item.getItemId()) {
+            case R.id.changeTheme: {
+                PreferenceManager
                         .getDefaultSharedPreferences(this)
                         .edit()
                         .putBoolean("theme", !isDark)
@@ -46,7 +43,6 @@ public class MainActivity extends AppCompatActivity {
                 recreate();
                 break;
             }
-
         }
 
         return super.onOptionsItemSelected(item);
@@ -56,26 +52,23 @@ public class MainActivity extends AppCompatActivity {
     public boolean onPrepareOptionsMenu(Menu menu1) {
 
         MenuItem darkIcon = menu1.findItem(R.id.changeTheme);
-
         darkIcon.setIcon(isDark ? R.drawable.ic_theme_night : R.drawable.ic_theme_day);
 
-
         return true;
-
     }
 
 
     @Override
     public void setTheme(int resId) {
-        isDark = PreferenceManager.getDefaultSharedPreferences(this).getBoolean("theme",false);
-        if(isDark)
-        super.setTheme(R.style.AppThemeDark);
+        isDark = PreferenceManager.getDefaultSharedPreferences(this).getBoolean("theme", false);
+        if (isDark)
+            super.setTheme(R.style.AppThemeDark);
         else
             super.setTheme(R.style.AppTheme);
     }
 
     public void openLinkedIn(View view) {
-      openUrl(Constants.LINKEDIN);
+        openUrl(Constants.LINKEDIN);
     }
 
     public void openFacebook(View view) {
@@ -93,8 +86,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    private void openUrl(String url)
-    {
+    private void openUrl(String url) {
         Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
         startActivity(browserIntent);
     }

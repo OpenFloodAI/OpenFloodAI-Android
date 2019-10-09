@@ -3,7 +3,7 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="iconColor">#757575</item>
-        <item name="stroke">#e0e0e0</item>
+        <item name="stroke">#E0E0E0</item>
         <item name="headerTextColor">@color/titleTextColor</item>
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
@@ -13,7 +13,7 @@
 
     <style name="AppThemeDark" parent="Theme.AppCompat.NoActionBar">
         <item name="iconColor">#B9B9B9</item>
-        <item name="stroke">#5a5a5a</item>
+        <item name="stroke">#5A5A5A</item>
         <item name="headerTextColor">@color/titleTextColorDark</item>
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
