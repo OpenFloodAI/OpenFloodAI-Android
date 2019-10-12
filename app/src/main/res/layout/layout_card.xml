@@ -36,42 +36,10 @@
         android:paddingTop="@dimen/padding_large">
 
         <FrameLayout
-            android:id="@+id/linkedin"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-
-            <ImageView
-                android:layout_width="@dimen/icon_size"
-                android:layout_height="@dimen/icon_size"
-                android:background="@drawable/footer_icon"
-                android:contentDescription="@string/linkedin_button_description"
-                android:onClick="openLinkedIn"
-                android:padding="@dimen/padding_normal"
-                android:src="@drawable/ic_linkedin" />
-        </FrameLayout>
-
-        <FrameLayout
-            android:id="@+id/github"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/padding_large"
-            android:layout_marginEnd="@dimen/padding_large">
-
-            <ImageView
-                android:layout_width="@dimen/icon_size"
-                android:layout_height="@dimen/icon_size"
-                android:background="@drawable/footer_icon"
-                android:contentDescription="@string/github_button_description"
-                android:onClick="openGithub"
-                android:padding="@dimen/padding_normal"
-                android:src="@drawable/ic_github" />
-        </FrameLayout>
-
-        <FrameLayout
             android:id="@+id/twitter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="@dimen/padding_large">
+            android:layout_margin="@dimen/padding_normal">
 
             <ImageView
                 android:layout_width="@dimen/icon_size"
@@ -86,7 +54,8 @@
         <FrameLayout
             android:id="@+id/facebook"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/padding_normal">
 
             <ImageView
                 android:layout_width="@dimen/icon_size"
@@ -96,6 +65,54 @@
                 android:onClick="openFacebook"
                 android:padding="@dimen/padding_normal"
                 android:src="@drawable/ic_facebook" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/linkedin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/padding_normal">
+
+            <ImageView
+                android:layout_width="@dimen/icon_size"
+                android:layout_height="@dimen/icon_size"
+                android:background="@drawable/footer_icon"
+                android:contentDescription="@string/linkedin_button_description"
+                android:onClick="openLinkedIn"
+                android:padding="@dimen/padding_normal"
+                android:src="@drawable/ic_linkedin" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/devto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/padding_normal">
+
+            <ImageView
+                android:layout_width="@dimen/icon_size"
+                android:layout_height="@dimen/icon_size"
+                android:background="@drawable/footer_icon"
+                android:contentDescription="@string/devto_button_description"
+                android:onClick="openDevto"
+                android:padding="@dimen/padding_normal"
+                android:src="@drawable/ic_devto" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/github"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/padding_normal">
+
+            <ImageView
+                android:layout_width="@dimen/icon_size"
+                android:layout_height="@dimen/icon_size"
+                android:background="@drawable/footer_icon"
+                android:contentDescription="@string/github_button_description"
+                android:onClick="openGithub"
+                android:padding="@dimen/padding_normal"
+                android:src="@drawable/ic_github" />
         </FrameLayout>
     </LinearLayout>
 </LinearLayout>
