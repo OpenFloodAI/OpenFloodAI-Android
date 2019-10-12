@@ -86,6 +86,10 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    public void openDevto(View view) {
+        openUrl(Constants.DEVTO);
+    }
+
     private void openUrl(String url) {
         Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
         startActivity(browserIntent);

@@ -5,8 +5,9 @@
 
     <!--Content Description for Accessibility support for visually impaired-->
     <string name="openFloodAi_social_handles_description">Social Handles of OpenFloodAi</string>
-    <string name="linkedin_button_description">Open LinkedIn Button</string>
-    <string name="github_button_description">Open GitHub Button</string>
     <string name="twitter_button_description">Open Twitter Button</string>
     <string name="facebook_button_description">Open Facebook Button</string>
+    <string name="linkedin_button_description">Open LinkedIn Button</string>
+    <string name="devto_button_description">Open Dev.to Button</string>
+    <string name="github_button_description">Open GitHub Button</string>
 </resources>
