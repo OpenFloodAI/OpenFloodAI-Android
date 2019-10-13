@@ -9,7 +9,7 @@
 
 #### 1. There are two themes, Dark and Light. They can be switched between using the sun-shaped button.
 
-  <img src="https://user-images.githubusercontent.com/44755140/66499421-6e41f880-eadd-11e9-8ab0-910e2c53eb09.gif" width="300">
+  <img src="https://user-images.githubusercontent.com/36810824/66719567-39041600-ee0f-11e9-86f8-99264f322877.gif" width="300">
 
 
 #### 2. You can connect to OpenFloodAI by following us on Linkedin
@@ -20,9 +20,14 @@
 #### 3. You can look into our Github Repository for the working code
 
   <img src="https://user-images.githubusercontent.com/44755140/66500810-cda10800-eadf-11e9-8798-536b52504bba.gif" width="300">
+  
 
+#### 4. You can follow us on DevTo
 
-#### 4. To stay updated, follow us on our social handles:
+  <img src="https://user-images.githubusercontent.com/36810824/66719568-399cac80-ee0f-11e9-9796-72dffcb689de.gif" width="300">
+  
+  
+#### 5. To stay updated, follow us on our social handles:
 
   <img src="https://user-images.githubusercontent.com/44755140/66500933-1062e000-eae0-11e9-8107-ffb8fc47b0da.gif" width="300">
   <img src="https://user-images.githubusercontent.com/44755140/66500941-15c02a80-eae0-11e9-96ef-ee274ed9153c.gif" width="300">
