@@ -9,28 +9,28 @@
 
 #### 1. There are two themes, Dark and Light. They can be switched between using the sun-shaped button.
 
-  <img src="https://user-images.githubusercontent.com/36810824/66719567-39041600-ee0f-11e9-86f8-99264f322877.gif" width="300">
+  <img src="https://user-images.githubusercontent.com/36810824/67088159-1896db80-f1c2-11e9-9296-6f060c5c75f9.gif" width="300">
 
 
 #### 2. You can connect to OpenFloodAI by following us on Linkedin
 
-  <img src="https://user-images.githubusercontent.com/44755140/66500645-87e43f80-eadf-11e9-84fd-ddfbe8ad6377.gif" width="300">
+  <img src="https://user-images.githubusercontent.com/36810824/67088163-192f7200-f1c2-11e9-8761-0c9d73c0cc80.gif" width="300">
 
 
 #### 3. You can look into our Github Repository for the working code
 
-  <img src="https://user-images.githubusercontent.com/44755140/66500810-cda10800-eadf-11e9-8798-536b52504bba.gif" width="300">
+  <img src="https://user-images.githubusercontent.com/36810824/67088165-19c80880-f1c2-11e9-99c4-a116dcb1c15d.gif" width="300">
   
 
 #### 4. You can follow us on DevTo
 
-  <img src="https://user-images.githubusercontent.com/36810824/66719568-399cac80-ee0f-11e9-9796-72dffcb689de.gif" width="300">
+  <img src="https://user-images.githubusercontent.com/36810824/67088164-192f7200-f1c2-11e9-99bd-76a162004bb8.gif" width="300">
   
   
 #### 5. To stay updated, follow us on our social handles:
 
-  <img src="https://user-images.githubusercontent.com/44755140/66500933-1062e000-eae0-11e9-8107-ffb8fc47b0da.gif" width="300">
-  <img src="https://user-images.githubusercontent.com/44755140/66500941-15c02a80-eae0-11e9-96ef-ee274ed9153c.gif" width="300">
+  <img src="https://user-images.githubusercontent.com/36810824/67088161-1896db80-f1c2-11e9-955e-c8e5ca585e0c.gif" width="300">
+  <img src="https://user-images.githubusercontent.com/36810824/67088162-192f7200-f1c2-11e9-844a-b42369454ee4.gif" width="300">
 
 
 ## Contributing to OpenFloodAI
